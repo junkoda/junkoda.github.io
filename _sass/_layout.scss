@@ -131,6 +131,11 @@
     color: $grey-color;
 }
 
+.post-category {
+    font-size: $small-font-size;
+    color: $brand-color;
+}
+
 .post-link {
     display: block;
     font-size: 24px;
@@ -160,7 +165,7 @@
 
     h2 {
         font-size: 24px; // 32 px
-        text-decoration: underline;
+        //text-decoration: underline;
         //font-weight:bold;
         padding: 15px 0 5px;
         margin: 0;
@@ -184,5 +189,29 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
+    }
+}
+
+/**
+  *  About Page
+  */
+
+.about-content {
+    h2 {
+        font-size: 20px;
+	font-weight: bold;
+        padding: 15px 0 0;
+        margin: 0;
+    }
+
+    h3 {
+        font-size: $base-font-size;
+	padding: 15px 0 0px;
+	margin: 0;
+    }
+
+    p.indent {
+	padding: 0 10px 0;
+	margin: 0;
     }
 }
