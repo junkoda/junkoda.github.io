@@ -1,11 +1,11 @@
 # Site settings
-title: Jun Koda's Homepage
+title: Jun Koda
 email: jun.koda@brera.inaf.it
 description: Jun Koda, Darklight postdoctoral fellow, INAF - Osservatorio Astronomico di Brera
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://junkoda.github.io" # the base hostname & protocol for your site
 permalink: /:categoriess/:year-:month-:day/:title
-github_username:  junkoda
+github_username: junkoda
 data_url: http://www13273u.sakura.ne.jp
 
 # Build settings
