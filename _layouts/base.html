@@ -1,52 +1,50 @@
----
-layout: base
-title: Jun Koda / About
-nav: About
-permalink: /about/
----
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="description"content="Jun Koda's Homepage">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}"> 
+    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  </head>
 
-<div class="post">
-<article class="about-content">
+   <body>
+    <div class="container">
+      <header>
+        <h1><a href="{{ site.baseurl }}/">{{ page.title }}</a></h1>
+      </header>
 
-<h2>Curriculum vitae of Jun Koda</h2>
-<a href="{{ "/assets/junkoda_cv.pdf" | prepend: site.baseurl }}">PDF version</a>
+      <nav>
+        {% for page in site.pages %}
+          {% if page.nav %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.nav }}</a>
+          {% endif %}
+        {% endfor %}    
+      </nav>
+      
+      <main>      
+        {{ content }}
+      </main>
 
-<h2>Affiliation</h2>
-<p>
-  Postdoctral fellow
-</p>
-
-<p>
-INAF - Osservatorio Astronomico di Brera<br />
-Via E. Bianchi 46<br />
-23807 Merate (LC)<br />
-Italy
-</p>
+      <footer>
 
 <p>
   <a href="mailto:{{ site.email }}">
     <span class="icon">
-    <svg viewBox="0 0 114 114">
+      <svg viewBox="0 0 114 114">
 	<path stroke="#000" stroke-width="7" fill="none" d="m7,20h98v72H7zl44,44q5,4 10,0l44-44M7,92l36-36m26,0 36,36"/>
-    </svg>
+      </svg>
     </span>
-    {{ site.email }}</a>
-</p>
-
-
-
-
-<p>
+  </a>
+    <!-- <img src="{{ "/assets/mail.svg" | prepend: site.baseurl }}" height="16" width="16"/></a> -->
+  
 <a href="https://github.com/junkoda">
   <!-- <span class="icon  icon--github"> -->
   <span class="icon">
     <svg viewBox="0 0 16 16">
                   <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
-    </svg></span>
-  GitHub/junkoda</a>
-</p>
+    </svg></span></a>
 
-<p>
   <a href="Public Profilehttps://it.linkedin.com/in/junkoda">
   <span class="icon">
       <svg version="1.1"
@@ -84,62 +82,10 @@ Italy
 </g>
       </svg>
   </span>
-  Linkedin/junkoda</a>
+</a>
 </p>
-
-<h2>Research</h2>
-<p>Computational cosmology, large-scale structure, multiple realisations of mock galaxy catalogues</p>
-<p>Theoretical modelling of peculiar velocity, redshift-space distortions</p>
-<p>Self-Interacting Dark Matter (SIDM) simulation</p>
-
-<h2>Publications</h2>
-<p>
-<a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?db_key=AST&db_key=PRE&qform=AST&arxiv_sel=astro-ph&aut_xct=YES&author=Koda%2C+Jun">NASA ADS</a> / <a href="http://arxiv.org/find/astro-ph/1/au:+Koda_Jun/0/1/0/all/0/1">arXiv</a> / <a href="http://scholar.google.com.au/citations?hl=en&view_op=list_works&gmla=AJsN-F7jIV5HzlRJPpz8B1hXKYlEckwTOw2pgg752WTQScYOOJIVww6dv-4EimT4JsYBfDEBFKT2Nlp39Yq8Jm5bFJGwoEohwA&user=_1zYjXgAAAAJ">Google Scholar</a>
-</p>
-
-<h2>Education</h2>
-<h3>2009 PhD in Physics</h3>
-<p>University of Texas at Austin (adviser: Paul R. Shapiro)</p>
-
-<h3>2002 Bachelor of Science in Physics</h3>
-<p>Kyoto University, Japan</p>
-
-<h2>Employment</h2>
-
-<h3>2014 - present</h3>
-<p>Darklight Postdoctroal Fellow<br />
-INAF - Osservatorio Astronomico di Brera</p>
-
-<h3>2011 - 2014</h3>
-<p>Postdoctoral Research Associate<br />
-Centre for Astrophysics and Supercomputing<br />
-  Swinburne University of Technology
-</p>
-
-<h3>2009 - 2011</h3>
-<p>Postdoctoral Fellow<br />
-Department of Astronomy, The University of Texas at Austin
-</p>
-
-<h2>Teaching<h2>
-<h3>2006 - 2007 &amp; 2009</h3>
-<p>Assistant Instructor, Mechanics and Heat for non-science majors (PS303)</p>
-
-<h3>2004 - 2006</h3>
-<p>
-  Head Teaching Assistant, Physics laboratory course for engineers (PHY103N)
-</p>
-
-<h3>2002 - 2004</h3>
-<p>
-  Teaching Assistant (PHY103N)
-</p>
-
-<h2>Grants</h2>
-<p>
-The Chandra X-ray Observatory Theory Project Cycle 9 (Co-I; PI Prof. Paul R. Shapiro)<br /> ‘Simulations of the Merging Bullet Cluster: Testing ΛCDM and the Dynamics of Cluster Plasma’
-</p>
-
-</article>
-
-</div>
+      </footer>
+	
+    </div>
+  </body>
+</html>
