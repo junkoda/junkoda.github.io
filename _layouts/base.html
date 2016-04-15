@@ -15,11 +15,10 @@
       </header>
 
       <nav>
-        {% for page in site.pages %}
-          {% if page.nav %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.nav }}</a>
-          {% endif %}
-        {% endfor %}    
+        <a class="page-link" href="{{site.baseurl }}"/>
+          Home</a>
+        <a class="page-link" href="{{ site.baseurl }}/about">
+          CV</a>  
       </nav>
       
       <main>      
