@@ -2,7 +2,7 @@
 title: Jun Koda
 email: jun.koda@brera.inaf.it
 description: Jun Koda, Darklight postdoctoral fellow, INAF - Osservatorio Astronomico di Brera
-baseurl: "abc" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://junkoda.github.io" # the base hostname & protocol for your site
 permalink: /:categoriess/:year-:month-:day/:title
 github_username: junkoda
