@@ -3,8 +3,6 @@ layout: base
 title: Jun Koda
 ---
 
-<div class="home">
-
 <p>Postdoctoral researcher in astrophysics / cosmology</p>
 
 <p>
@@ -74,9 +72,9 @@ Italy
   Linkedin/junkoda</a>
 </p>
 
-  <h2>First-author papers</h2>
+<h2>First-author papers</h2>
  
-  <ul>
+<ul>
   {% for post in site.posts %}
   {% if post.category == 'paper' %}
   <li>
@@ -84,14 +82,14 @@ Italy
   </li>
   {% endif %}
   {% endfor %}
-  </ul>
+</ul>
 
 
-  <p> <a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?db_key=AST&db_key=PRE&qform=AST&arxiv_sel=astro-ph&aut_xct=YES&author=Koda%2C+Jun">NASA ADS</a> / <a href="http://arxiv.org/find/astro-ph/1/au:+Koda_Jun/0/1/0/all/0/1">arXiv</a> / <a href="http://scholar.google.com.au/citations?hl=en&view_op=list_works&gmla=AJsN-F7jIV5HzlRJPpz8B1hXKYlEckwTOw2pgg752WTQScYOOJIVww6dv-4EimT4JsYBfDEBFKT2Nlp39Yq8Jm5bFJGwoEohwA&user=_1zYjXgAAAAJ">Google Scholar</a></p>
+<p> <a href="http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?db_key=AST&db_key=PRE&qform=AST&arxiv_sel=astro-ph&aut_xct=YES&author=Koda%2C+Jun">NASA ADS</a> / <a href="http://arxiv.org/find/astro-ph/1/au:+Koda_Jun/0/1/0/all/0/1">arXiv</a> / <a href="http://scholar.google.com.au/citations?hl=en&view_op=list_works&gmla=AJsN-F7jIV5HzlRJPpz8B1hXKYlEckwTOw2pgg752WTQScYOOJIVww6dv-4EimT4JsYBfDEBFKT2Nlp39Yq8Jm5bFJGwoEohwA&user=_1zYjXgAAAAJ">Google Scholar</a></p>
 
-  <h2>Codes</h2>
+<h2>Codes</h2>
 
-  <ul>
+<ul>
   {% for post in site.posts %}
   {% if post.category == 'code' %}
   <li>
@@ -99,26 +97,8 @@ Italy
   </li>
   {% endif %}
   {% endfor %}
-  </ul>
+</ul>
 
 
 
-  <!--
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <span class="post-category">{{ post.category }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-	<article class="post-content">
-	  {{ post.content }}
-	</article>
-      </li>
-    {% endfor %}
-  </ul>
-  -->
-
-</div>
