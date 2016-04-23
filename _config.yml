@@ -9,11 +9,4 @@ github_username: junkoda
 data_url: http://www13273u.sakura.ne.jp
 
 # Build settings
-# markdown: kramdown
-markdown: redcarpet
-redcarpet:
-  extensions: [tables,autolink,strikethrough,fenced_code_blocks]
-
-safe: true
-lsi: false
-pygments: true
+markdown: kramdown
