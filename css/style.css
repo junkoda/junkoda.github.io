@@ -60,7 +60,7 @@ footer {
 nav {
     clear: both;
     border-bottom: 1px solid #ececec;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 nav a {
@@ -93,6 +93,10 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
+}
+
+h2.section {
+    margin-top: 40px;
 }
 
 a {
