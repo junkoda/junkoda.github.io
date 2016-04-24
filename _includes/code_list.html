@@ -1,0 +1,13 @@
+<ul>
+  {% for post in site.posts %}
+  {% if post.category == 'code' %}
+  <li>
+    {% if post.href contains "http" %}
+    {{ post.title }} <a href="{{ post.href }}">{{ post.link }}</a>
+    {% else %}
+    <a href="{{ post.href | prepend: site.baseurl }}"> {{ post.title }}</a>
+    {% endif %}
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>

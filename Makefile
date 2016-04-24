@@ -17,3 +17,8 @@ update:
 	bundle update
 
 
+.PHONY: notebook
+
+notebook:
+	rsync -av --exclude='Untitle*' /Users/junkoda/Research/github/mockgallib/notebook/*.html codes/mockgallib/notebook/
+

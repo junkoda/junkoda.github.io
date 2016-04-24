@@ -13,7 +13,7 @@ permalink: /codes/mockgallib/
 ## Python interface
 
 - [PowerSpectrum]({{ "/codes/mockgallib/notebook/power_spectrum.html" | prepend: site.baseurl }})
-- [growth]({{ "/codes/mockgallib/notebook/growth.html" | prepend: site.baseurl }})
+- [Growth]({{ "/codes/mockgallib/notebook/growth.html" | prepend: site.baseurl }})
 - [Sigma]({{ "/codes/mockgallib/notebook/sigma.html" | prepend: site.baseurl }})
 - [MassFunction]({{ "/codes/mockgallib/notebook/mass_function.html" | prepend: site.baseurl }})
 - [Hod]({{ "/codes/mockgallib/notebook/hod.html" | prepend: site.baseurl }})
