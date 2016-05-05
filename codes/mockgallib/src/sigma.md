@@ -14,3 +14,4 @@ permalink: /codes/mockgallib/src/sigma.html
 {% highlight cpp linenos %}
 {% include_relative _src/sigma.cpp %}
 {% endhighlight %}
+
