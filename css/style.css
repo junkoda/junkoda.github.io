@@ -95,10 +95,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
 }
 
-h2.section {
-    margin-top: 40px;
-}
-
 a {
     color: #44B78B;
     text-decoration: none;
@@ -106,6 +102,7 @@ a {
 
 
 /* Tables */
+
 
 table {
     width: 100%;
@@ -117,14 +114,17 @@ table td, th {
     text-align: left;
 }
 
+/*
 th {
     background-color: #44B78B;
     color: #fff;
 }
 
+
 table tr:nth-child(odd){
     background-color: #ececec;
 }
+*/
 
 @media only screen and (max-width: 500px) {
     thead {
@@ -175,4 +175,21 @@ table tr:nth-child(odd){
         path {
             fill: $grey-color;
         }
+}
+
+h2.section {
+    margin-top: 40px;
+}
+
+.section {
+    margin-top: 40px;    
+}
+
+p.function {
+    margin-top: 40px;
+}
+
+p.description {
+    margin-top:   0px;
+    margin-left: 20px;
 }

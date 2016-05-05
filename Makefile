@@ -1,20 +1,20 @@
-all: build serve
+all: codes build serve
 
 serve: build
 
-.PHONEY: build serve update
+.PHONY: codes build serve update
 
+codes:
+	@echo codes
+	cd codes && make
 build:
-	bundle exec jekyll build
+	jekyll build
 
 watch:
-	bundle exec jekyll build --watch
+	jekyll build --watch
 
 serve:
-	bundle exec jekyll serve
-
-update:
-	bundle update
+	jekyll serve
 
 
 .PHONY: notebook
