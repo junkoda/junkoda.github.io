@@ -1,0 +1,17 @@
+---
+layout: base
+title:  mockgallib/src
+back:   codes/mockgallib
+permalink: /codes/mockgallib/src/<%= name %>.html
+---
+
+## <%= name %>.h
+{% highlight cpp linenos %}
+{% include_relative _src/<%= name %>.h %}
+{% endhighlight %}
+
+## <%= name %>.cpp
+{% highlight cpp linenos %}
+{% include_relative _src/<%= name %>.cpp %}
+{% endhighlight %}
+
