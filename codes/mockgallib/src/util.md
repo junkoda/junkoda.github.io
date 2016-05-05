@@ -10,3 +10,8 @@ permalink: /codes/mockgallib/src/util.html
 {% include_relative _src/util.h %}
 {% endhighlight %}
 
+## util.cpp
+{% highlight cpp linenos %}
+{% include_relative _src/util.cpp %}
+{% endhighlight %}
+
