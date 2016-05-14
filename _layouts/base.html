@@ -1,14 +1,5 @@
 <html>
-  <head>
-    <title>Jun Koda's Home page</title>
-    <meta charset="utf-8">
-    <meta name="description"content="Jun Koda's Homepage">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ "/css/normalize.css" | prepend: site.baseurl }}"> 
-    <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/css/syntax.css" | prepend: site.baseurl }}">
-  </head>
-
+  {% include head.html %}
    <body>
     <div class="container">
       <header>
@@ -16,75 +7,15 @@
       </header>
 
       <nav>
-        <a class="page-link" href="{{ site.baseurl }}/">
-          Home</a>
-        <a class="page-link" href="{{ site.baseurl }}/about">
-          CV</a>  
+        <a class="page-link" href="{{ site.baseurl }}/">Home</a>
+        <a class="page-link" href="{{ site.baseurl }}/about">CV</a>  
       </nav>
       
       <main>      
         {{ content }}
       </main>
 
-      <footer>
-
-<p>
-  <a href="mailto:{{ site.email }}">
-    <span class="icon">
-      <svg viewBox="0 0 114 114">
-	<path stroke="#000" stroke-width="7" fill="none" d="m7,20h98v72H7zl44,44q5,4 10,0l44-44M7,92l36-36m26,0 36,36"/>
-      </svg>
-    </span>
-  </a>
-  
-<a href="https://github.com/junkoda">
-  <!-- <span class="icon  icon--github"> -->
-  <span class="icon">
-    <svg viewBox="0 0 16 16">
-                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
-    </svg></span></a>
-
-  <a href="Public Profilehttps://it.linkedin.com/in/junkoda">
-  <span class="icon">
-      <svg version="1.1"
-	 id="svg2" sodipodi:version="0.32" inkscape:version="0.47 r22583" sodipodi:docname="linkedin.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px"
-	 viewBox="0 0 256 256" enable-background="new 0 0 16 16" xml:space="preserve">
-<sodipodi:namedview  showgrid="false" inkscape:window-maximized="0" pagecolor="#ffffff" bordercolor="#666666" id="base" borderopacity="1.0" inkscape:cx="138.80354" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.24748737" inkscape:cy="94.798647" inkscape:document-units="px" inkscape:current-layer="layer1" inkscape:window-width="853" inkscape:window-height="674" inkscape:window-x="1" inkscape:window-y="281">
-	</sodipodi:namedview>
-      <g id="layer1" transform="translate(-373.642,-318.344)" inkscape:label="Layer 1" inkscape:groupmode="layer">
-	
-		<path id="rect1942" inkscape:export-filename="C:\Documents and Settings\Molumen\Desktop\path3511111.png" inkscape:export-xdpi="7.7063322" inkscape:export-ydpi="7.7063322" fill="#1D8CB5" d="
-		M583.659,328.849H419.625c-19.599,0-35.487,15.888-35.487,35.487v164.015c0,19.599,15.888,35.486,35.487,35.486h164.033
-		c19.599,0,35.487-15.888,35.487-35.486V364.337C619.146,344.738,603.257,328.849,583.659,328.849z"/>
-	
-		<linearGradient id="path1950_1_" gradientUnits="userSpaceOnUse" x1="-808.8727" y1="199.8918" x2="-860.5692" y2="49.2029" gradientTransform="matrix(-0.5915 0 0 -0.5915 -34.5417 412.5453)">
-		<stop  offset="0" style="stop-color:#FFFFFF"/>
-		<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
-	</linearGradient>
-	
-		<path id="path1950" inkscape:export-filename="C:\Documents and Settings\Molumen\Desktop\path3511111.png" inkscape:export-xdpi="7.7063322" sodipodi:nodetypes="ccccsssc" inkscape:export-ydpi="7.7063322" opacity="0.7811" fill="url(#path1950_1_)" enable-background="new    " d="
-		M557.056,338.895H446.227c-29.337,0-52.955,23.81-52.955,53.385v108.127c0.95,23.087,4.603,8.491,11.555-17.075
-		c8.081-29.713,34.396-55.682,66.445-75.145c24.461-14.855,51.84-24.341,101.679-25.244
-		C601.216,382.432,598.721,346.26,557.056,338.895z"/>
-</g>
-<g id="layer1_1_" transform="translate(-200.55198,-393.96227)" inkscape:label="Layer 1" inkscape:groupmode="layer">
-	<g id="g3019" transform="matrix(1.018827,0,0,-1.018827,170.5996,498.03288)">
-		<path id="path28_1_" inkscape:connector-curvature="0" fill="#FFFFFF" d="M109.495-101.774V2.533H74.828v-104.307H109.495z
-			 M92.168,16.775c12.081,0,19.612,8.01,19.612,18.021c-0.224,10.233-7.531,18.021-19.385,18.021
-			c-11.864,0-19.615-7.788-19.615-18.021c0-10.011,7.521-18.021,19.159-18.021H92.168L92.168,16.775z"/>
-		<path id="path30_1_" inkscape:connector-curvature="0" fill="#FFFFFF" d="M128.681-101.774h34.673v58.249
-			c0,3.119,0.226,6.235,1.143,8.462c2.5,6.232,8.209,12.681,17.784,12.681c12.547,0,17.562-9.568,17.562-23.588v-55.804h34.666
-			v59.81c0,32.039-17.1,46.946-39.913,46.946c-18.701,0-26.915-10.45-31.476-17.571h0.234V2.533h-34.673
-			C129.141-7.253,128.681-101.774,128.681-101.774L128.681-101.774z"/>
-	</g>
-</g>
-      </svg>
-  </span>
-</a>
-</p>
-      </footer>
-	
+      {% include footer.html %}
     </div>
   </body>
 </html>
