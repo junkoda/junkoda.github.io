@@ -14,3 +14,4 @@ permalink: /codes/mockgallib/src/sky.html
 {% highlight cpp linenos %}
 {% include_relative _src/sky.cpp %}
 {% endhighlight %}
+

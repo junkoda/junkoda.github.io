@@ -14,3 +14,4 @@ permalink: /codes/mockgallib/src/catalogue.html
 {% highlight cpp linenos %}
 {% include_relative _src/catalogue.cpp %}
 {% endhighlight %}
+

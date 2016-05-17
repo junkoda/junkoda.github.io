@@ -1,6 +1,7 @@
-#include <iostream>
 #include <cstdio>
 #include <cassert>
+
+#include "msg.h"
 #include "cola_file.h"
 
 using namespace std;
@@ -8,17 +9,20 @@ using namespace std;
 FILE* fp;
 static int nhalo;
 
-void cola_halo_file_open(const char filename[])
+void cola_halo_file_open(const char filename[],
+			 float* const boxsize)
 {
   fp= fopen(filename, "r");
   if(fp == 0) {
-    cerr << "Error: unable to open " << filename << endl;
-    throw filename;
+    msg_printf(msg_fatal, "Error: unable to open cola fof file, %s", filename);
+    throw ColaFileError();
   }
 
   float params[3];
   int ret= fread(params, sizeof(float), 3, fp); assert(ret == 3);
 
+  *boxsize= params[0];
+  
   nhalo= 0;
 }
 

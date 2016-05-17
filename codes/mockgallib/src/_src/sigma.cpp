@@ -62,7 +62,6 @@ Sigma::~Sigma()
 double Sigma::M(const double sigma0) const
 {
   // sigma0 is sigma(M, z=0)
-  // return value: M(sigma)
 #ifdef DEBUG
   if(1/sigma0 < sinv_[0] || 1/sigma0 > sinv_[n-1]) {
     cerr << "Error: sigma_M(sigma0) out of range.\n";

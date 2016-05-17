@@ -14,3 +14,4 @@ permalink: /codes/mockgallib/src/cola_file.html
 {% highlight cpp linenos %}
 {% include_relative _src/cola_file.cpp %}
 {% endhighlight %}
+

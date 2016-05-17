@@ -10,3 +10,8 @@ permalink: /codes/mockgallib/src/snapshot.html
 {% include_relative _src/snapshot.h %}
 {% endhighlight %}
 
+## snapshot.cpp
+{% highlight cpp linenos %}
+{% include_relative _src/snapshot.cpp %}
+{% endhighlight %}
+

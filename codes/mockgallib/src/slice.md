@@ -14,3 +14,4 @@ permalink: /codes/mockgallib/src/slice.html
 {% highlight cpp linenos %}
 {% include_relative _src/slice.cpp %}
 {% endhighlight %}
+

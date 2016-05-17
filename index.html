@@ -74,7 +74,7 @@ Italy
   {% for post in site.posts %}
   {% if post.category == 'paper' %}
   <li>
-    {{ post.title }}, <a href="{{ post.href }}">{{ post.link }}</a>
+    <a class="secondary" href="{{ post.permalink }}">{{ post.title }}</a>, <a href="{{ post.href }}">{{ post.link }}</a>
   </li>
   {% endif %}
   {% endfor %}
