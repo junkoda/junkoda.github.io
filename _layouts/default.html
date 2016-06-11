@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+<header>
+  <h1><a href="{{ site.baseurl }}/">{{ page.title }}</a></h1>
+  <nav>
+    <a class="page-link" href="{{ site.baseurl }}/">Home</a>
+    <a class="page-link" href="{{ site.baseurl }}/about">CV</a>  
+  </nav>
+</header>
+
+<main>      
+{{ content }}
+</main>
+
+{% include footer.html %}
+</body>
+</html>

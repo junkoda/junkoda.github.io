@@ -10,3 +10,8 @@ data_url: http://www13273u.sakura.ne.jp
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  -
+    values:
+      layout: "default"
